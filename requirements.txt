@@ -1,0 +1,9 @@
+streamlit
+crewai
+crewai-tools
+langchain-openai
+pypdf
+sentence-transformers
+pinecone
+langchain-pinecone
+groundx
