@@ -1,7 +1,7 @@
 from crewai import Agent, Crew, Process, Task
 from crewai.project import CrewBase, agent, crew, task
-from crewai_tools import SerperDevTool
-from crewai_tools import PDFSearchTool
+from crewai.tools import SerperDevTool
+from crewai.tools import PDFSearchTool
 # from tools.custom_tool import DocumentSearchTool
 from agentic_rag.tools.custom_tool import DocumentSearchTool
 
