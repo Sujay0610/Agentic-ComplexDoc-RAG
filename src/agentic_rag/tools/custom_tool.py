@@ -5,6 +5,9 @@ from typing import Type
 
 from crewai.tools import BaseTool
 from pydantic import BaseModel, Field, ConfigDict
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 # Import necessary libraries for Chroma integration
 from langchain_community.document_loaders import PyPDFLoader
