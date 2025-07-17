@@ -5,4 +5,5 @@ langchain-openai
 pypdf
 sentence-transformers
 chromadb
+pysqlite3-binary
 groundx
