@@ -1,6 +1,6 @@
 streamlit
 crewai
-crewai-tools
+crewai[tools]
 langchain-openai
 pypdf
 sentence-transformers
