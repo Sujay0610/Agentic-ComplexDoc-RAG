@@ -1,6 +1,6 @@
 streamlit
-crewai
-crewai-tools
+crewai>=0.100.0 
+crewai-tools>=0.25.8
 langchain-openai
 pypdf
 sentence-transformers
