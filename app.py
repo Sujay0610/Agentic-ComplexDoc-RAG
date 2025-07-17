@@ -6,7 +6,7 @@ import base64
 import time
 
 from crewai import Agent, Crew, Process, Task, LLM
-from crewai_tools import SerperDevTool
+from crewai.tools import SerperDevTool
 from src.agentic_rag.tools.custom_tool import DocumentSearchTool as SimpleDocumentSearchTool
 from src.agentic_rag.tools.custom_tool_complex import DocumentSearchTool as ComplexDocumentSearchTool
 from langchain_openai import ChatOpenAI
